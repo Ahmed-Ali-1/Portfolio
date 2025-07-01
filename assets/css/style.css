@@ -167,12 +167,14 @@ span {
     font-size: 40px;
     color: var(--text-color);
 }
-.portfolio h2{
+
+.portfolio h2 {
     font-size: 45px;
     margin-bottom: 40px;
     text-align: center;
     color: var(--text--color-);
 }
+
 .portfolio_container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -194,7 +196,7 @@ span {
     transition: all .5s;
 }
 
-.portfolio_box:hover img{
+.portfolio_box:hover img {
     transform: scale(1.1);
 }
 
@@ -212,8 +214,27 @@ span {
     padding: 0 44px;
     transform: translateY(100%);
     transition: .5s ease;
+    color: var(--text--color-);
+    gap: 10px;
 }
 
-.portfolio_box:hover .portfolio_layer{
+.portfolio_box:hover .portfolio_layer {
     transform: translateY(0);
+}
+
+.portfolio_layer h4{
+    font-size: 22px;
+
+}
+.portfolio_layer p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.portfolio_icon a{
+    padding: 10px;
+    color: var(--text--color-);
+}
+.portfolio_icon i{
+    font-size: 22px;
 }
