@@ -28,6 +28,8 @@
         </nav>
     </header>
 
+    <!-- HOME-SECTION -->
+
     <section class="home" id="home">
         <div class="home-content">
             <h3>Hi, Myself</h3>
@@ -45,14 +47,15 @@
                 <a target="_blank" href="https://github.com/Huzaifa-Khan-Official/nextfolio"><i
                         class="fa-regular fa-file"></i></a>
             </div>
-            <a href="#contact" class="btn">Get in Touch</a>
+            <a href="#contact" class="btn R-margin">Get in Touch</a>
         </div>
         <div class="home-img">
-            <lottie-player src="./assets/Images/Animation - 1751364329993.json" background="transparent" speed="1"
-                style="width: 35vw;" loop autoplay></lottie-player>
+            <lottie-player class="home_Img" src="./assets/Images/Animation - 1751364329993.json" background="transparent" speed="1"
+                style="width: 650px;" loop autoplay></lottie-player>
         </div>
     </section>
 
+    <!-- ABOUT-SECTION -->
 
     <section class="about" id="about">
         <div class="about-content">
@@ -71,6 +74,7 @@
         </div>
     </section>
 
+    <!-- PORTFOLIO-SECTION -->
 
     <section class="portfolio" id="portfolio">
         <h2>Featured <span>Projects</span></h2>
@@ -144,6 +148,8 @@
         </div>
     </section>
 
+    <!-- CONTECT-SECTION -->
+
     <section class="contact" id="contact">
         <h2>Get in <span>Touch</span></h2>
         <div class="contact_info">
@@ -159,19 +165,25 @@
             </div>
         </div>
 
-        <form action="">
+        <form action="https://formsubmit.co/ahmedali034012449@gmail.com" target="_blank" method="post">
             <div class="input_box">
-                <input type="text" name="name" placeholder="Name">
-                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="Name" placeholder="Name">
+                <input type="email" name="Email" placeholder="Email">
             </div>
-            <input class="sub" type="text" name="subject" placeholder="Subject">
-            <textarea name="" cols="30" rows="10" id="" placeholder="Massage"></textarea>
-            <input type="submit" value="Send Massege" class="sub_btn btn">
+            <input class="sub" type="text" name="Subject" placeholder="Subject">
+            <textarea name="Massage" cols="30" rows="10" placeholder="Massage"></textarea>
+            <input type="hidden" name="_autoresponse" value="Thanks for your message! We will contact you soon.">
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit" class="sub_btn btn">Send Massage</button>
         </form>
     </section>
 
+    <!-- FOOTER-SECTION -->
+
     <footer class="footer">
-        <div class="footer_text"><p>© 2025 Ahmed Ali. All rights reserved.</p></div>
+        <div class="footer_text">
+            <p>© 2025 Ahmed Ali. All rights reserved.</p>
+        </div>
         <div class="footer_icon">
             <a href="#home">
                 <i class="fa-solid fa-angle-up"></i>
