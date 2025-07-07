@@ -13,7 +13,7 @@
 #menubtn {
     width: 50px;
     height: 50px;
-    background-color: #262840 ;
+    background-color: #262840;
     text-align: center;
     position: fixed;
     top: 10px;
@@ -46,9 +46,10 @@
     padding: 20px 24px;
 }
 
-.Bar a:hover{
+.Bar a:hover {
     color: #5982f4;
 }
-.Bar a.active_home{
+
+.Bar a.active_home {
     color: #5982f4;
 }

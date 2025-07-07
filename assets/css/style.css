@@ -66,8 +66,9 @@ header {
     cursor: default;
     color: var(--text--color-);
 }
+
 @media (max-width: 556px) {
-    .logo{
+    .logo {
         font-size: 20px;
     }
 }
@@ -89,7 +90,8 @@ header {
     #sideNav {
         display: none;
     }
-    #menubtn{
+
+    #menubtn {
         display: none;
     }
 }
@@ -107,7 +109,7 @@ header {
     .home-img {
         display: none;
     }
-    
+
 }
 
 .home {
@@ -208,6 +210,7 @@ span {
         padding: 11px 19px;
     }
 }
+
 @media (max-width: 656px) {
 
     .home h3 {
@@ -528,7 +531,6 @@ span {
     .portfolio_layer {
         padding: 0 38px !important;
     }
-
 
 }
 
