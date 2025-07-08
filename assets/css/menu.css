@@ -4,7 +4,7 @@
     position: fixed;
     top: -280px;
     left: 0;
-    background: rgba(38, 40, 64, 0.4);
+    background: rgba(38, 40, 64, 0.8);
     backdrop-filter: blur(8px);
     transition: 0.5s;
     z-index: 2;
@@ -36,13 +36,13 @@
 
 .Bar ul li a {
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 #sideNav h1 {
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     padding: 20px 24px;
 }
 
