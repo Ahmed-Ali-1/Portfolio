@@ -184,7 +184,7 @@ span {
 @media (max-width: 992px) {
 
     .social_media a {
-        margin: 30px 7px !important;
+        margin: 26px 7px !important;
     }
 
     .home {
@@ -240,10 +240,10 @@ span {
     }
 
     .social_media a {
-        font-size: 16px;
-        width: 36px;
-        height: 36px;
-        border: 1.2px solid var(--main--color);
+        font-size: 18px;
+        width: 38px;
+        height: 38px;
+        border: 1.8px solid var(--main--color);
         margin: 26px 10px 26px 0;
     }
 
@@ -319,6 +319,14 @@ span {
     margin: auto;
     font-size: 16px;
     margin-top: 10px;
+}
+
+@media (max-width: 992px) {
+    .about-content p {
+        max-width: 480px;
+        font-size: 14px;
+
+    }
 }
 
 .expertise {
@@ -399,10 +407,10 @@ span {
 }
 
 .circle {
-    background-color: blue;
-    width: 85px;
+    /* background-color: blue; */
     display: flex;
-    height: 85px;
+    width: 74px;
+    height: 74px;
     justify-content: center;
     border-radius: 50%;
     position: relative;
@@ -421,8 +429,8 @@ span {
 }
 
 .circle_inner {
-    width: 65px;
-    height: 65px;
+    width: 54px;
+    height: 54px;
     background: var(--bg--color);
     border-radius: 50%;
     display: flex;
@@ -638,7 +646,11 @@ span {
 @media (max-width: 496px) {
     .contact_info {
         margin-bottom: 0px;
-        row-gap: 4px;
+        row-gap: 6px;
+    }
+
+    .contact_info_box a {
+        font-size: 14px;
     }
 }
 
@@ -658,8 +670,14 @@ span {
 }
 
 .contact_info_box a {
-    color: #93949c;
-    font-size: 12px;
+    color: #85868b;
+    font-size: 16px;
+}
+
+@media (max-width: 420px) {
+    .contact_info_box a {
+        font-size: 14px;
+    }
 }
 
 
