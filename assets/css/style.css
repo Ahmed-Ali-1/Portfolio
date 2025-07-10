@@ -291,7 +291,6 @@ span {
 }
 
 
-
 /* ABOUT-SECTION */
 
 .about {
@@ -385,7 +384,7 @@ span {
     padding: 26px 17px 35px;
     border-radius: 16px;
     border: 2px solid var(--bg--color);
-    transition: .5s ease;
+    transition: all .5s ease;
 }
 
 .expertise_container .exp_box:hover {
@@ -505,7 +504,7 @@ span {
     transition: .5s ease;
     color: var(--text--color-);
     gap: 8px;
-      z-index: 2;
+    z-index: 2;
 }
 
 .portfolio_box:hover .portfolio_layer {
@@ -529,8 +528,8 @@ span {
     font-weight: 500;
     line-height: 22px;
     word-spacing: 1px;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+
 }
 
 .portfolio_icon a {
@@ -581,7 +580,8 @@ span {
     .portfolio_layer h4 {
         font-size: 24px;
     }
-     .portfolio_layer p {
+
+    .portfolio_layer p {
         font-size: 14px;
         font-weight: 600;
     }
@@ -762,7 +762,6 @@ textarea,
     }
 
 }
-
 
 
 /* FOTTER-SECTION */
