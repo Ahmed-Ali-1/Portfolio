@@ -462,7 +462,7 @@ span {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 40px;
+    gap: 25px;
 }
 
 .portfolio_box {
@@ -478,9 +478,9 @@ span {
 .img-area {
 
     width: 100%;
-    min-height: 300px;
+    min-height: 280px;
     border-radius: 15px;
-    transition: all 2s linear;
+    transition: all 3s linear;
     background-image: url(../Images/Salt.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -495,7 +495,7 @@ span {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(89, 130, 244, 0.8));
+    background: linear-gradient(rgba(89, 130, 244, 0.4), rgba(0, 0, 0, 0.4));
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -505,6 +505,7 @@ span {
     transition: .5s ease;
     color: var(--text--color-);
     gap: 8px;
+      z-index: 2;
 }
 
 .portfolio_box:hover .portfolio_layer {
@@ -516,8 +517,6 @@ span {
     cursor: pointer;
 }
 
-
-
 .portfolio_layer h4 {
     font-size: 24px;
     font-weight: 700;
@@ -527,15 +526,21 @@ span {
 .portfolio_layer p {
     font-size: 16px;
     margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 22px;
+    word-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    
 }
 
 .portfolio_icon a {
-    padding: 10px;
+    padding: 20px;
+    font-size: 16px;
     color: var(--text--color-);
 }
 
-.portfolio_icon i {
-    font-size: 22px;
+.portfolio_icon a i {
+    font-size: 18px;
 }
 
 .portfolio_icon a:hover {
@@ -550,11 +555,6 @@ span {
     .portfolio_layer h4 {
         font-size: 20px;
 
-    }
-
-    .portfolio_layer p {
-        font-size: 14px;
-        margin-bottom: 10px;
     }
 
     .portfolio_icon a {
@@ -580,6 +580,10 @@ span {
 
     .portfolio_layer h4 {
         font-size: 24px;
+    }
+     .portfolio_layer p {
+        font-size: 14px;
+        font-weight: 600;
     }
 
     .portfolio_icon a {
