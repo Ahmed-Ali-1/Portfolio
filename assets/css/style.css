@@ -333,9 +333,9 @@ span {
 
 }
 
-@media (max-width: 466px) {
+@media (max-width: 556px) {
     .expertise {
-        padding: 0 26px;
+        padding: 0 36px;
     }
 }
 
@@ -365,20 +365,16 @@ span {
 }
 
 .expertise_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 26px;
-    width: 100%;
 }
 
 .expertise_container .exp_box {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
-    flex: 1 1 200px;
-    /* width: 230px; */
     gap: 8px;
     background: var(--bg--color);
     padding: 26px 17px 35px;
