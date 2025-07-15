@@ -333,9 +333,9 @@ span {
 
 }
 
-@media (max-width: 556px) {
+@media (max-width: 466px) {
     .expertise {
-        padding: 0 36px;
+        padding: 0 20px;
     }
 }
 
