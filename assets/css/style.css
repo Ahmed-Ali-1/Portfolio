@@ -477,7 +477,7 @@ span {
     min-height: 280px;
     border-radius: 15px;
     transition: all 3s linear;
-    background-image: url(../Images/Salt.png);
+    background-image: url(../Images/Salt.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
